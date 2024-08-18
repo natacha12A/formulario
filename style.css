@@ -1,4 +1,4 @@
-/* Estilos gerais */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -8,16 +8,14 @@ body {
 }
 
 h1 {
-    color: #4A148C; /* Roxo */
+    color: #4A148C; 
     text-align: center;
     margin-bottom: 20px;
-    font: <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">;
+
 }
 
 h3 {
-    color: #00796B; /* Verde */
+    color: #00796B;
     margin-bottom: 10px;
 }
 
@@ -50,7 +48,7 @@ textarea,
 select {
     width: calc(100% - 20px);
     padding: 8px;
-    border: 2px solid #ddd;
+    border: 2px solid #9f9f9ff1;
     border-radius: 5px;
     font-size: 16px;
     transition: border-color 0.3s;
@@ -64,7 +62,7 @@ input[type="date"]:focus,
 input[type="file"]:focus,
 textarea:focus,
 select:focus {
-    border-color: #00796B; /* Verde */
+    border-color: #00796B; 
 }
 
 input[type="radio"],
@@ -76,7 +74,7 @@ button {
     display: block;
     width: 100%;
     padding: 10px;
-    background-color: #00796B; /* Verde */
+    background-color: #00796B; 
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -86,10 +84,10 @@ button {
 }
 
 button:hover {
-    background-color: #004D40; /* Verde escuro */
+    background-color: #004D40; 
 }
 
-/* Detalhes adicionais */
+
 textarea {
     height: 100px;
     resize: vertical;
@@ -101,7 +99,7 @@ select {
 
 select:focus {
     outline: none;
-    border-color: #4A148C; /* Roxo */
+    border-color: #4A148C; 
 }
 
 input[type="file"] {
